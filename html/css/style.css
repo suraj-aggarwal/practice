@@ -1,0 +1,112 @@
+.co--main {
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+}
+.menu-box {
+    display: flex;
+    border: 1px solid black;
+}
+
+.Checkout {
+    width: 30%;
+    font-weight: bold;
+}
+.Payment-Method::after {
+    content: "/";
+}
+
+.Payment-Method {
+    font-weight: bold;
+}
+.Payment-Method::before{
+    content: "/";
+}
+
+.closeWindow {
+    padding: 0.5%;
+    margin-left: auto;
+}
+
+.option-box {
+    display: flex;
+    border: 1px solid black;
+    border-top: 1px solid white;
+}
+
+.Payment {
+    width: 60%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
+.cards > img {
+    height: 25%;
+    width: 25%;
+}
+
+.Payment > .addCards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+    height: 0%;
+}
+
+.addCards > button {
+    background-color: green;
+}
+
+.addCards > span  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addCards > span > input{
+    width: 45%;
+}
+
+.Cart {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+}
+.Cart > .mobileHolder {
+    display: flex;
+    flex-direction: row ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex: 1;
+}
+.mobileHolder > img {
+    width: 12%;
+    height: 88%;
+    padding: 1%;
+    background-color: lightgray;
+}
+
+.mobileHolder > b {
+    margin-left: auto;
+}
+
+.Cart > span {
+    border: 0.5px solid lightgray;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalcost {
+    display: flex;
+    justify-content: space-between;
+}
